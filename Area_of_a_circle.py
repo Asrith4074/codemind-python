@@ -1,4 +1,3 @@
-r=float(input())
-a=3.14*r*r
-b=format(a,".2f")
-print(b)
+x=int(input())
+r=3.14*x*x
+print(f"{r:.2f}")
